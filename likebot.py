@@ -12,7 +12,7 @@ import urllib
 
 with open('token.txt', 'r') as myfile:
   TOKEN = myfile.read()
-#TOKEN = "771176457:AAFBkzofma-WgmN214SAZ296O848O5FYU-k"
+  
 URL = "https://api.telegram.org/bot{}/".format(TOKEN)
 
 def get_url(url):
